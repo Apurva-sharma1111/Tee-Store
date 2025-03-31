@@ -205,10 +205,12 @@ input[type="checkbox"]{
 
 /* CartDetail Page CSS  */
 
-.shoppingContainer{
+.shopping-wrapper{
     padding: 20px;
-    margin-left: 20px;
-    width: 400px;
+}
+
+.shoppingContainer{
+    max-width: 400px;
 }
 
 .cartItem{
@@ -348,11 +350,6 @@ input[type="checkbox"]{
     .productImg{
         max-width: 100%;
         height: auto;
-    }
-    .shoppingContainer {
-        width: 340px;
-        margin-left: 0;
-        padding: 20px;
     }
     .search-box{
         display: flex;

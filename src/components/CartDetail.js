@@ -15,10 +15,9 @@ const CartDetail = () => {
       item.price !== undefined && item.price !== null ? item.price : 0;
     return total + quantity * price;
   }, 0);
-  console.log("total", totalAmount);
 
   return (
-    <>
+    <div className="shopping-wrapper">
       <div className="shoppingContainer">
         {cartItems.length > 0 ? (
           <>
@@ -73,7 +72,7 @@ const CartDetail = () => {
           </div>
         )}
       </div>
-    </>
+    </div>
   );
 };
 

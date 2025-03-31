@@ -354,6 +354,9 @@ input[type="checkbox"]{
     .search-box{
         display: flex;
     }
+    .shopping-wrapper {
+        padding: 20px;
+    }
 
     .shopping-cart-title{
         padding: 0px;

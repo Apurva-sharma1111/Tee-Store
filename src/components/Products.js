@@ -34,7 +34,6 @@ const Products = ({ searchInput, filterQuery }) => {
     <>
       <div className="productsDiv">
         {filterProducts.map((product) => (
-          <>
             <div className="productCard" key={product.id}>
               <img src={product.imageURL} className="productImg" />
               <h4>{product.name}</h4>
@@ -60,7 +59,6 @@ const Products = ({ searchInput, filterQuery }) => {
                 )}
               </div>
             </div>
-          </>
         ))}
       </div>
     </>

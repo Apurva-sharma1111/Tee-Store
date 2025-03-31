@@ -66,23 +66,23 @@ body{
 
 /* Searchbar Css */
 
-.searchBox{
+.search-box{
     display: flex;
     justify-content: center;
-    margin: 40px 0px;
+    padding: 30px 20px;
 }
 
-.searchBox input {
+.search-box input {
     width: 300px;
     border: none;
     border-bottom: 1px solid #ccc;
 }
 
-.searchBox input:focus {
+.search-box input:focus {
     outline: none;
 }
 
-.searchBox button {
+.search-box button {
     color: #fff;
     cursor: pointer;
     background-color: blueviolet;
@@ -93,7 +93,7 @@ body{
     display: flex;
 }
 
-.searchBox .searchIcon{
+.search-box .searchIcon{
     width: 16px;
     height: 16px;
 }
@@ -152,7 +152,6 @@ input[type="checkbox"]{
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    height: 315px;
 }
 
 .productImg{
@@ -223,6 +222,11 @@ input[type="checkbox"]{
     width: 60px;
     height: 60px;
     background: #ddd;
+}
+
+.shopping-cart-title{
+    padding: 20px;
+    margin-left: 15px
 }
 
 .cartDetails{
@@ -316,7 +320,7 @@ input[type="checkbox"]{
 
 /* Mobile responsiveness */
 
-@media (max-width: 786px){
+@media (max-width: 768px) and (max-width: 1024px){
     .filterSidebar {
         position: fixed;
         top: 0;
@@ -336,16 +340,27 @@ input[type="checkbox"]{
 
     .productsDiv {
         grid-template-columns: repeat(1, 1fr);
-        gap: 15px;
-        padding: 10px;
-        margin-left: 0; 
+        gap: 25px;
+        margin-left: 0;
+        padding: 22px;
     }
-    .productCard {
-        height: 500px;
+    
+    .productImg{
+        max-width: 100%;
+        height: auto;
     }
     .shoppingContainer {
         width: 340px;
         margin-left: 0;
         padding: 20px;
+    }
+    .search-box{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .shopping-cart-title{
+        padding: 0px;
+        margin: 15px 0 40px 0;
     }
 }

@@ -1,7 +1,6 @@
 {
   "name": "teerex-store",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "clean": "rd /s /q .parcel-cache dist",
     "start": "parcel index.html",

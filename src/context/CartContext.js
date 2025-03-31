@@ -29,8 +29,6 @@ export const CartProvider = ({ children }) => {
           ...prevCart,
           [product.id]: prevCart[product.id] ? prevCart[product.id] + 1 : 1,
         };
-    
-        console.log("Updated Cart:", updatedCart);
         return updatedCart;
       });
   }
@@ -64,7 +62,6 @@ export const CartProvider = ({ children }) => {
     (total, quantity) => total + quantity,
     0
   );
-  console.log("cartCount", cartCount)
   return (
     <CartContext.Provider
       value={{ cart, cartCount, addToCart, updateQuantity }}

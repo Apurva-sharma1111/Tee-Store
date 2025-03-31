@@ -22,7 +22,7 @@ const CartDetail = () => {
       <div className="shoppingContainer">
         {cartItems.length > 0 ? (
           <>
-            <h3 style={{ padding: "20px", marginLeft: "15px" }}>
+            <h3 className="shopping-cart-title">
               Shopping Cart
             </h3>
             {cartItems.map((item) => (

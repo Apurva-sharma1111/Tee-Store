@@ -13,8 +13,8 @@ const SearchBox = ({ onSearch }) => {
           onChange={(e) => setInput(e.target.value)}
           placeholder="Search for products..."
         />
-        <button onClick={handleSearch}>
-          <img src={searchIcon} className="searchIcon" />
+        <button onClick={handleSearch} className="search-button-container">
+          <img src={searchIcon} className="searchIcon" alt="Search" />
         </button>
     </>
   );

@@ -10,7 +10,7 @@ const Body = () => {
   const [isShowFilters, setIsShowFilters] = useState(false);
   return (
     <>
-      <div className="searchBox">
+      <div className="search-box">
         <SearchBox onSearch={setSearchQuery} />
         <button
           className="EmptyFilterBtn"

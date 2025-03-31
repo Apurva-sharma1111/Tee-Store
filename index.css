@@ -356,7 +356,6 @@ input[type="checkbox"]{
     }
     .search-box{
         display: flex;
-        justify-content: space-between;
     }
 
     .shopping-cart-title{

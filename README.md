@@ -3,10 +3,21 @@
 ## Description
 A responsive and interactive T-shirt Store
 
-## Installation
+## Steps to run the App
 
-To install the dependencies, run the following command:
-
+- Clone the app git clone git@github.com:Apurva-sharma1111/Tee-Store.git
+- run the commands
+```sh
 npm install
+npm start
+```
+## Deployment
+https://creative-zuccutto-0acd6e.netlify.app/
 
-## Steps to run the Project
+## Technologies Used
+- React Js
+- Javascript
+- Context Api
+- HTML
+- CSS
+- Parcel

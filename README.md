@@ -1,7 +1,7 @@
 # Tee-Store
 
 ## Description
-A responsive and interactive T-shirt Store
+A responsive and interactive UI for T-shirt Store
 
 ## Steps to run the App
 
